@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">TutorPlus</string>
+    <string name="hello_android">Hello Android!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="loading">Loading...</string>
+    <string name="Name">Name</string>
+    <string name="Age">Age</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone</string>
+    <string name="Level">Level</string>
+    <string name="PriceperSession">Price per Session</string>
+    <string name="Qualification">Qualification</string>
+    <string name="TutorExperience">Tutor Experience</string>
+    <string name="Category">Category</string>
+    <string name="Location">Location</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_message">Message</string>
+    <string name="action_call">Call</string>
+
+    <string name="tutorReviewHintTxt">Write your review here</string>
+    <string name="RateTutor">Rate your Tutor</string>
+
+    <string name="server_client_id">510251209552-jjd7u79uhc16mjl4b5hob4dh3e8j7jv9.apps.googleusercontent.com</string>
+    <string-array name="price">
+
+
+        <item>Price:</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+
+
+    </string-array>
+
+    <string-array name="level">
+
+        <item>Level:</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+
+
+    </string-array>
+
+
+</resources>

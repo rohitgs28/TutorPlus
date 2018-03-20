@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/appbackground">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/calendar1">
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D7FA5"
+        android:text="Set Availability"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColorHighlight="#7A7A7A"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:paddingTop="2dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="14dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select date from calendar"
+        android:editable="false"
+        android:id="@+id/event_date"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter message to send"
+        android:id="@+id/event_desription"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Add Availability"
+        android:textColor="#000000"
+        android:id="@+id/add_event"
+        style="@style/buttonstyle"
+        android:elevation="5dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Clear Fields"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/clear_event"
+        android:elevation="5dp"/>
+
+    <Button
+        android:id="@+id/submit_tutor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="View Profile"
+        android:onClick="onSubmitClick"
+        android:layout_weight="1"
+        android:elevation="5dp"/>
+</LinearLayout>
+</ScrollView>
