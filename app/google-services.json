@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "166718787260",
+    "project_id": "firebase-tutorplus"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166718787260:android:7e42604eab0d32fe",
+        "android_client_info": {
+          "package_name": "com.dal.group7.tutorplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166718787260-k0svr261kpau4v5rbm66upgg5ngufao8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "166718787260-6757oqinfp9tiecsgglcujboenq0nshn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dal.group7.tutorplus",
+            "certificate_hash": "6c386e42e816a67d649d4ec0d379043c3669760c"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSgnkcLwNuD_5vcco0B_yCu4up5Tz6U90"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
